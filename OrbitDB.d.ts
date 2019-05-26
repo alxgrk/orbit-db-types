@@ -18,6 +18,8 @@ declare module 'orbit-db' {
         stores: any;
         directory: string;
         keystore: Keystore;
+        cache: Cache;
+        identity: Identity;
 
         static databaseTypes: string[];
         
